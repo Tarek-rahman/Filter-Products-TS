@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    #3ab5b0 0%,
+    #3d99be 31%,
+    #56317a 100%
+  );
+  color: white;
+}
+#productList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.product {
+  /* width: 500px; */
+  height: 250px;
+  border-bottom: 2px solid gray;
+  overflow: hidden;
+  padding: 10px;
+  background-image: linear-gradient(-60deg, #023c31 0%, #717171 100%);
+  border-radius: 7px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+input {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 7px;
+  border: 1px solid grey;
+  margin-bottom: 30px;
+}
